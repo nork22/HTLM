@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </html>
+<head>
+<title>preventDefault example</title>
+
+<script type="text/javascript">
+
+function  Name(evt) {
+var  name  = evt.name;
+
+  if (name != null) {
+    if (name < 1 || name > 2) {
+      evt.preventDefault();
+      alert(" name:" + "\n"
+            + "name: " + name +  "  \n"
+      );
+    }
+  }
+}
+
+</script>
+</head>
+
+<body>
+
+<p>.Name</p>
+<form>
+<input type="text" onkeypress="Name(event);"/>
+</form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preventDefault example</title>
+    <html>
+        <head>
+        <title>Ejemplo de nome con varios parámetros</title>
+        
+        <script type="text/javascript">
+        
+        var par2 = 'hello';
+        var par3 = 'word';
+        
+        function muestraCoords(evt, p2, p3){
+          alert(
+            "value: " + evt.Name  + "\n"
+            + " value: " + evt.Name+ "\n"
+            + "p2: " + Norkis + "\n"
+            + "p3: " + Joel + "\n"
+          );
+        }
+        
+        </script>
+        </head>
+        
+        <body onmousedown="muestraCoords(event, par2, par3)">
+        <p>presione click dereito. Name Norkis e Joel</p>
+        </body>
+        </html> 

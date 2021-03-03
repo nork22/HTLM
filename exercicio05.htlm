@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt- Br">
+<head>
+<metaname="description"content="Como criar um script em JavaScript no HTML">
+<metacharset="utf-8">
+<body>
+<title>Curso JavaScript Progressivo</title>
+
+<script type="text/javascript">
+ var idade = prompt("Qual e a idade da primera pessoa: ");
+ var idade = prompt("Qual e a idade da segunda pessoa: ");
+ alert("Você tem " + idade + " anos de idade");
+
+</script>
+
+    
+</body>
+</head>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt- Br">
+<head>
+    <body>
+    
+<metaname="description"content="Como criar um script em JavaScript no HTML">
+<metacharset="utf-8">
+<title>Curso JavaScript Progressivo</title>
+
+<script type="text/javascript">
+ var nome = prompt("Qual e o nome da primera pessoa:");
+ var nome = prompt("Qual e o nome da segunda pessoa:");
+ document.write("Bem vindo, ", nome);
+</script>
+</body>
+</head>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt- Br">
+<head>
+<metaname="description"content="Como criar um script em JavaScript no HTML">
+<metacharset="utf-8">
+<title>Curso JavaScript Progressivo</title>
+<body>
+<script type="text/javascript">
+ var sobrenome = prompt("Qual e o sobrenome da primera pessoa:");
+ var sobrenome = prompt("Qual e o sobrenome da segunda pessoa:");
+ document.write("Bem vindo, ", sobrenome);
+</script>
+</body>
+
+</head>
+</html>

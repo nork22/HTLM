@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt;Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> criar marcacaon de tamplete </title>
+</head>
+<body>
+    <h0> fondo de color </h0>
+    <body bgcolor="#5DADE2" > 
+    
+       
+       
+        <img src="https://images.pexels.com/photos/4946665/pexels-photo-4946665.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="sozinho-solitario-vestuario-indumentaria"width=200">
+
+    
+    <h1> maria orlova</h1> 
+    <di>
+    <nav>
+        <ul>
+            <li><a href="https://www.pexels.com/pt-br/descobrir/" >explorar</a></li>
+            <li><a href="https://www.pexels.com/pt-br/licenca/" >licenca</a></li>
+            <li><a href="https://www.pexels.com/pt-br/join-contributor/" >fazer upload</a></li>
+            <li><a href="https://www.pexels.com/pt-br/onboarding/" >cadatre-se</a></li>
+            
+        </ul>
+    </nav>
+     </di>
+</header>
+<main>
+    <article> 
+        <h2>foto professionais gratuitas</h2>
+        <p>  apresentaremos imagenes <strong pexels></strong>.</p>
+    </article>
+    <article>
+    <h3>paypal</h3>
+    <li><a href="https://www.paypal.com/donate/?token=UeX7DidaUuE5MQn2ZED-Gyrwq-8ffRpuhak6PU7MCS9Vx7gRV5SaxdPsNki9_7IfIqN_Fhlr19pzAKa2&locale.x=US">paypal</a></li>/
+    
+    <p>doar</p>
+
+</article>
+</main>
+<footer>
+    <p>https://www.pexels.com/pt-br/ </p>
+</footer>    
+</body>
+</html>

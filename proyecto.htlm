@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title> Meu site </title>
+</head>
+
+    <style>
+html{ 
+scroll-behavior: smooth;
+
+}
+
+ body{
+        margin: 0;
+        font-family: 'Fjalla One', sans-serif;
+
+} 
+
+footer {
+background-color:#C0C0C0 ;
+padding: 30px;
+color:brown;
+
+} 
+#topMenu {
+    display: flex;
+    background-color:#302f2f;
+    margin: 0;
+
+} 
+#topMenu li {
+     color:white;
+     text-decoration: none;
+     display: block;
+     padding: 15px;
+} 
+
+#topMenu li :first-child {
+  margin-right: auto;
+
+}
+
+.section1 {
+    display: flex;
+    height: 33vh;
+    background-color: blue;
+
+} 
+
+.centralize {
+     margin: auto;
+     text-align: center;
+}   
+
+.imagenprojeto{
+width: 15vh;
+height: 15vh;
+padding-left:15px;
+} 
+
+.section2{
+display: flex;
+background-color:white;
+width:33vh;
+
+}
+
+.section3{
+display: flex;
+background-color:beige;
+width:33vh;
+
+}
+.botaovermelho{ 
+background-color:#c64e63;
+border-radius: 5px;
+color: white;
+padding: 10px;
+font-family: 'Fjalla One', sans-serif;
+
+}
+    </style>
+
+    <body>
+    <nav >
+
+        <ul id="topMenu">
+        
+            <li>logo</li>
+            <li>home</li>
+            <li>projeto</li>
+            <li>contacto</li>
+        </ul>
+        </nav>
+        <div class="section1 ">
+
+            <div class="centralize">
+
+                <h1 style="color:whitesmoke"> Norkis </h1>
+                
+                <a href="#projetos"><button class="botaovermelho">Meus projetos</button></a>
+            </div>           
+        </div>
+        <div id="projeto" class="section2centralize">
+
+            <table class="centralize">
+                <tr>
+                     <td style= "width:40%" > <img class="imagemprojeto"  src="https://i1.wp.com/i127.photobucket.com/albums/p140/arkraken/EscudoUNEFANUEVO.jpg" alt="estado anzoategui- venezuela "> </td>
+                     <td style= "width:60%;text-align: left ">
+                 
+                 <ul style="color:mediumblue;">
+    
+                    projeto unefa
+                     <hr>
+
+<li>  estudios e objetivos estudios e objetivos   estudios e objetivos   estudios e objetivos </li>
+
+
+<li>ensino superior</li>
+
+
+<li>curso engenharia </li>
+
+
+<li> engenheiro de petroleo </li>
+                       
+                    </ul></td>
+                </tr>
+            </table>
+            </div>
+
+
+        <div id="projeto" class="section3centralize">
+
+        <table class="centralize">
+            <tr>
+        
+         <td style= "width:60%;text-align: left ">
+             
+             <ul style="color:mediumblue;">
+
+                projeto 2
+                 <hr>
+
+<li> trabajos realizados  trabajos realizados  trabajos realizados  trabajos realizados </li>                                                                                                        
+
+
+<li>Empresa PDVSA</li>
+
+
+<li>estagio-petropiar</li>
+
+
+<li>tanque de armazenamento</li>
+
+<td style= "width:40%" > <img class="imagemprojeto"  src="https://pbs.twimg.com/profile_images/1070024720970645505/NH2WS42e_400x400.jpg" alt="estado anzoategui- venezuela "> </td>
+                
+</ul></td>
+            </tr>
+        </table>
+        </div>
+<div id="projeto" class="section2centralize">
+
+            <table class="centralize">
+                <tr>
+                     <td style= "width:60%" > <img class="imagemprojeto"  src="https://logospng.org/wp-content/uploads/whatsapp.jpg" alt="whatssap "> </td>
+                     <td style= "width:40%;text-align: left ">
+                 
+                 <ul style="color:black">
+    
+                    projeto 3
+                     <hr>
+                     
+<li>  listagem de contato listagem de contato listagem de contato listagem de contato </li>
+
+
+<li>facebook</li>
+
+
+<li>whatssap </li>
+
+
+<li> instagram </li>
+                       
+                    </ul></td>
+                </tr>
+            </table>
+            </div>
+        <footer>
+            <h5 class="centralize"> criado por Norkis</h5>
+        </footer>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt- Br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>proyectoanimadocss</title>
+   <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 100 & display = swap" rel = "hoja de estilo">
+   <style type="text/css">
+   
+    *{
+        margin: 0;
+        padding: 5%;
+        box-sizing: border-box;
+    
+    }
+    
+    img{
+        width: 100%;border: 5px solid #000;
+        
+
+    }
+    
+    body{
+        background:#00cbff;
+        zoom:300%;
+        font-family: "roboto";
+        text-overflow:initial;
+     
+    }
+    
+.portafolio h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 15px 0px 40px;
+}
+.portafolio-container{
+    border: 5px solid #eee;
+    display:flex;
+  
+
+    }
+
+.portafolio-item{
+    display:flex;
+    justify-content:space-between;
+
+
+    }
+
+ .portafolio-text {
+     position: relative;
+    text-align: justify;
+
+ }
+
+   </style>   
+   </head> 
+   <body>
+    
+   <section class="portafolio">
+
+   <h1>Nuestro portafolio</h1>
+   <div class="portafolio-container">
+   <section class="portafolio-item" >
+
+   <img src= "https://scontent-gru1-1.xx.fbcdn.net/v/t1.15752-0/s206x206/164746310_1400489456972993_4034599511563906710_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=58c789&_nc_ohc=kb7AUeDCA4EAX8-_0sG&_nc_ht=scontent-gru1-1.xx&tp=7&oh=9d500347a37a0ec56bacdc5a309692f7&oe=6086A361" alt="" class="_ portafolio-img_"/>
+  
+   <section class="portafolio-texto">
+   <h2> Ola sou: Norkis Nohemi Reyes de Hernandez</h2>   
+   <p> Pensamentos:a única diferença entre o sucesso e o fracasso é a capacidade de agir.
+    Quando você sentir por que vai desistir, pense por que você começou. </p>
+   </section>
+   </section>
+   </div>
+   </section> 
+   <title> tag object </title>
+   <video width="1000" height="1000" controls= "controls" autoplay= "autoplay" >
+   <source src="IMG_11923.mp4"type="video/mp4" class="_video-htlm_">
+   <object data="28-03-2021" width="1000" height="1000">
+   <embed width="1000" height="1000" src="IMG_11923.mp4" >
+   </object>
+   </video>
+   </body>
+   </html>
